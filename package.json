@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "storybook": "concurrently 'npm:watch:*'",
     "watch:storybook": "storybook dev -p 6006",
-    "watch:tailwindcss": "tailwindcss -i ./src/index.css -o ./src/tailwind.css --watch",
+    "watch:tailwindcss": "tailwindcss -i ./src/index.css -o ./src/tailwind.css --watch --minify",
     "build-storybook": "storybook build"
   },
   "dependencies": {
